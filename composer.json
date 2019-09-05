@@ -1,0 +1,27 @@
+{
+    "name": "dohnall/todolist",
+    "description": "You can create the to-do-list of your task.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lukas Dohnal",
+            "email": "dohnal@gramonet.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dohnall\\Todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dohnall\\Todolist\\": "src/"
+        }
+    }
+}
