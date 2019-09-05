@@ -2,10 +2,12 @@
     "name": "dohnall/todolist",
     "description": "You can create the to-do-list of your task.",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Lukas Dohnal",
-            "email": "dohnal@gramonet.com"
+            "email": "dohnal@gramonet.com",
+            "homepage": "https://www.gramonet.com"
         }
     ],
     "extra": {
